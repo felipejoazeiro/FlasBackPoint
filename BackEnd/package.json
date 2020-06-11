@@ -1,0 +1,19 @@
+{
+  "name": "flashbasq",
+  "version": "1.0.0",
+  "description": "Aplicativo para marcação de pontos",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon backend/src/server.js"
+  },
+  "author": "Felipe Joazeiro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
